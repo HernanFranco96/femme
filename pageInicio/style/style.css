@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{font-family: 'Roboto', sans-serif;}
+.titulo{background: url('../img/fondo2.jpeg');}
+.menu{margin-top: -30px; border-top: 2px solid #CBC8C8; border-bottom: 2px solid #CBC8C8;}
+.carrusel{border-left: 6px solid #CBC8C8; padding-top: 10px; padding-left: 20px; margin-top: 5px;}
+.carousel-inner{width: 555px; height: 300px; background-position: absolute;}
+.carousel{width: 555px; height: 300px;}
+.cubo{width: 555px; height: 300px; margin-top: -300px;}
+
+@media screen and (max-width: 1200px){
+    .i, .carousel-inner, .carousel{width: 70%; height: 70vh;}
+    .cubo{width: 51%; margin-top: -298px;}
+}
+
+@media screen and (max-width: 1000px){
+    .i, .carousel-inner, .carousel{width: 100%; height: 70vh;}
+    .cubo{
+        width: 0px;
+        height: 0px;
+        float: none;
+        margin-top: 0px;
+        display: none;
+    }
+}
