@@ -1,0 +1,8 @@
+
+.menu{border-right: 1px solid #EDEDED;}
+
+@media screen and (max-width: 700px){
+    .menu{
+        border-right: none;
+    }
+}
